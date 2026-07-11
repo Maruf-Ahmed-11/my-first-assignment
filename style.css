@@ -97,3 +97,50 @@ nav {
     margin-top: 200px;
 }
 /* Hero banner end */
+
+.card-div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.card-content img{
+    object-fit: cover;
+}
+
+
+.card-content{
+    border: 1px solid rgb(245, 243, 243);
+    border-radius: 15px;
+    overflow: hidden; /*fit content inside card*/
+    
+}
+.card-txt{
+    padding: 8px;
+
+}
+.card-txt h3{
+    font-weight: 700;
+    font-size: 25px;
+    margin: 15px 0;
+}
+.s-card{
+    padding: 80px;
+}
+.s-card h2{
+    text-align: center;
+    font-size: 50px;
+    margin: 20px 0;
+    padding: 20px 0;
+}
+.par-1{
+    font-size: 15px;
+    color: #2563EB;
+    font-weight: bold;
+    padding: 8px 0;
+}
+.par-2{
+    color: grey;
+    padding: 8px 0;
+}
+/* CARD SECTION END */
