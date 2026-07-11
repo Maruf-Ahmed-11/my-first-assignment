@@ -1,0 +1,1 @@
+I'm creating a webpage about DEVCONF 2026, containing navbar, hero section, card section, pricing section & footer. Give me another relevant section with content breakdown that I can use between Pricing & Footer section

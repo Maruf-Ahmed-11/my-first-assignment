@@ -141,7 +141,7 @@ nav {
     padding: 20px 0;
 }
 
-.par-1 {
+label {
     font-size: 15px;
     color: #2563EB;
     font-weight: bold;
@@ -252,3 +252,40 @@ hr{
     margin: 15px 0;
 }
 /* PRICING SECTION END */
+footer{
+    background-color: #0D1B2A;
+    color: #575757;
+    padding: 50px 0 30px;
+
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+    padding: 30px;
+}
+.rights{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.icons{
+    display:flex;
+    justify-content: space-between;
+}
+.f-logo{
+    color: #1d4ed8;
+    margin: 10px 20px;
+    padding: 30px;
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.social-links i{
+    color: #1d4ed8;
+    font-size: 25px;
+    padding: 30px 30px;
+
+}
