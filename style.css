@@ -1,36 +1,39 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.container{
+.container {
     max-width: 1200px;
     margin: auto;
 }
-.common-btn{
+
+.common-btn {
     background-color: #1d4ed8;
     color: white;
     text-align: center;
     padding: 20px 50px;
     margin: 10px;
     border-radius: 15px;
+    cursor: pointer;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.n-logo{
+.n-logo {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 8px;
     padding: 8px;
 }
-.logo-icon{
-    background-color: #0d1b2a ;
+
+.logo-icon {
+    background-color: #0d1b2a;
     color: #3b82f6;
     height: 40px;
     width: 40px;
@@ -39,18 +42,58 @@ nav{
     align-items: center;
     border-radius: 8px;
 }
-.logo-text p{
-font-weight: 700;
-font-size: 25px;
+
+.logo-text p {
+    font-weight: 700;
+    font-size: 25px;
 }
 
-.n-links ul a{
+.n-links ul a {
     text-decoration: none;
     color: #575757;
 }
-.n-links ul{
+
+.n-links ul {
     display: flex;
     gap: 25px;
     list-style: none;
 }
+
 /* NAVBAR END */
+
+
+.hero-root {
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)),
+        url(./assets/banner.jpg);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1000px;
+    padding: 50px;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    text-align: center;
+}
+
+.hero-text {
+    color: white;
+    margin-bottom: 200px;
+}
+
+.hero-text h1 {
+    padding: 30px;
+    font-size: 100px;
+}
+
+.hero-text p {
+    font-size: 30px;
+}
+
+.hero-btn {
+    margin-top: 200px;
+}
+/* Hero banner end */
