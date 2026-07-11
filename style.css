@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.common-btn{
+    background-color: #1d4ed8;
+    color: white;
+    text-align: center;
+    padding: 20px 50px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.n-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+}
+.logo-icon{
+    background-color: #0d1b2a ;
+    color: #3b82f6;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.logo-text p{
+font-weight: 700;
+font-size: 25px;
+}
+
+.n-links ul a{
+    text-decoration: none;
+    color: #575757;
+}
+.n-links ul{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+/* NAVBAR END */
