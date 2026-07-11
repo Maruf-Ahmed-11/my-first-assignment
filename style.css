@@ -252,6 +252,80 @@ hr{
     margin: 15px 0;
 }
 /* PRICING SECTION END */
+
+.faq {
+    margin-top: 70px;
+    padding: 50px 30px;
+    background: #f8fafc;
+    border-radius: 15px;
+}
+
+.faq-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.faq-header h2 {
+    font-size: 2.2rem;
+    color: #1e293b;
+    margin-bottom: 10px;
+}
+
+.faq-header p {
+    color: #64748b;
+}
+
+.faq-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.faq-container details {
+    background: white;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.faq-container details:hover {
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.faq-container summary {
+    padding: 18px 20px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 600;
+    list-style: none;
+    position: relative;
+}
+
+.faq-container summary::-webkit-details-marker {
+    display: none;
+}
+
+.faq-container summary::after {
+    content: "+";
+    position: absolute;
+    right: 20px;
+    font-size: 1.4rem;
+    transition: transform .3s;
+}
+
+.faq-container details[open] summary::after {
+    content: "−";
+}
+
+.faq-container details p {
+    padding: 0 20px 20px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* FAQ SECTION END */
+
 footer{
     background-color: #0D1B2A;
     color: #575757;
@@ -289,3 +363,4 @@ footer{
     padding: 30px 30px;
 
 }
+/* FOOTER END */
