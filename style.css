@@ -18,6 +18,7 @@
     cursor: pointer;
 }
 
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -64,7 +65,7 @@ nav {
 
 .hero-root {
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
         url(./assets/banner.jpg);
 
     background-size: cover;
@@ -96,51 +97,158 @@ nav {
 .hero-btn {
     margin-top: 200px;
 }
+
 /* Hero banner end */
 
-.card-div{
+.card-div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
 
-.card-content img{
+.card-content img {
     object-fit: cover;
 }
 
 
-.card-content{
+.card-content {
     border: 1px solid rgb(245, 243, 243);
     border-radius: 15px;
-    overflow: hidden; /*fit content inside card*/
-    
+    overflow: hidden;
+    /*fit content inside card*/
+
 }
-.card-txt{
+
+.card-txt {
     padding: 8px;
 
 }
-.card-txt h3{
+
+.card-txt h3 {
     font-weight: 700;
     font-size: 25px;
     margin: 15px 0;
 }
-.s-card{
+
+.s-card {
     padding: 80px;
 }
-.s-card h2{
+
+.s-card h2 {
     text-align: center;
     font-size: 50px;
     margin: 20px 0;
     padding: 20px 0;
 }
-.par-1{
+
+.par-1 {
     font-size: 15px;
     color: #2563EB;
     font-weight: bold;
     padding: 8px 0;
 }
-.par-2{
+
+.par-2 {
     color: grey;
     padding: 8px 0;
 }
+
 /* CARD SECTION END */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.p-card h2 {
+    text-align: center;
+    font-size: 50px;
+    margin: 15px 0;
+}
+
+
+.p-card .sub-heading {
+    text-align: center;
+    margin-bottom: 45px;
+    color: #575757;
+}
+
+.p-card ul {
+    text-align: left;
+    margin: 40px 0;
+}
+.p-card{
+    padding: 50px 0;
+
+}
+.p-card ul li{
+    color: grey;
+}
+
+.left-btn {
+    background-color: white;
+    color: #3b82f6;
+    text-align: center;
+    padding: 20px 50px;
+    margin: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 1px solid #3b82f6;
+}
+
+.right-btn {
+    background-color: white;
+    color: #0D1B2A;
+    text-align: center;
+    padding: 20px 50px;
+    margin: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 1px solid #0D1B2A;
+}
+
+.side-card,
+.middle-card {
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    padding: 30px;
+    text-align: left;
+}
+.side-card{
+    background-color: #ebebeb;
+}
+.middle-card{
+    background-color: #0D1B2A;
+}
+.middle-card h3{
+    color: white;
+}
+
+.version{
+    font-size: 15px;
+    color: gray;
+    padding: 8px 0;
+    font-weight: 700;
+}
+
+.card h3{
+    font-size: 50px;
+    padding: 10px 0;
+}
+.btn{
+    width: 100%;
+    font-weight: 700;
+}
+
+.small{
+    color: grey;
+    padding-bottom: 18px;
+}
+
+hr{
+    margin: 15px 0;
+}
+/* PRICING SECTION END */
